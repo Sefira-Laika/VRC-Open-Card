@@ -17,12 +17,8 @@ public class deck : UdonSharpBehaviour
     private const int Purple = 3;
     private const int Universal = 0; //Universal (Colourless cards) has the same offset as White and uses the same rendering technique
     private const int DeckLength = 108;
-    //Counter is used to generate unique card names
-    [UdonSynced]
-    private int Counter = 0; // Reset is not needed as this data is not visble to players
     //public variable as an attempt to make the pullcard function visible to other scripts
     public const string PullCardName = nameof(PullCard);
-
     //U# does not support structs inside classes
     //I have switched this data to strings
     //private struct CardData

@@ -7,7 +7,9 @@ using VRC.SDK3.UdonNetworkCalling;
 public class ReturnToDeck : UdonSharpBehaviour
 {
     public GameObject DeckObject;
+    public GameObject DumpZone; //Dumping transform for objects that don't belong to the deck
     private UdonSharpBehaviour Deck;
+
 
     void Start()
     {
@@ -20,7 +22,7 @@ public class ReturnToDeck : UdonSharpBehaviour
         int cardID = intersect.gameObject.GetInstanceID();
         VRC_Pickup Pickup = intersect.gameObject.GetComponent<VRC_Pickup>();
         Pickup.Drop();
-        intersect.gameObject.transform.position = DeckObject.transform.position;
+        intersect.gameObject.transform.position = DumpZone.transform.position;
 
         Debug.Log("Deck: " + Deck);
         string ReturnCardFn = "ReturnCard";//
