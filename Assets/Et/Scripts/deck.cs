@@ -84,6 +84,7 @@ public class deck : UdonSharpBehaviour
             {
                 Debug.Log("First synchronisation: initialising card status");
                 FirstSync = false;
+                TableName = gameObject.transform.parent.gameObject.name;
                 for (int i = 0; i < DeckLength; i++)
                 {
                     CardGenerated[i] = false;
