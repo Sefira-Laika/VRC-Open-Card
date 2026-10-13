@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1919552869020368305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6729486448409117843}
+  m_Layer: 0
+  m_Name: Dump_Zone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6729486448409117843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919552869020368305}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.766, z: -0.31}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8394265283652242819}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7229149679891174548
 GameObject:
   m_ObjectHideFlags: 0
@@ -29,6 +60,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 6729486448409117843}
   - {fileID: 1016172871650542570}
   - {fileID: 4821584874438280985}
   - {fileID: 4352046138290208301}
@@ -593,6 +625,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6615624411315889259, guid: 7588598b162251997856d8e051f14b37, type: 3}
     - target: {fileID: 6653183260482112041, guid: 7588598b162251997856d8e051f14b37, type: 3}
+      propertyPath: DumpZone
+      value: 
+      objectReference: {fileID: 1919552869020368305}
+    - target: {fileID: 6653183260482112041, guid: 7588598b162251997856d8e051f14b37, type: 3}
       propertyPath: serializationData.Prefab
       value: 
       objectReference: {fileID: 6653183260482112041, guid: 7588598b162251997856d8e051f14b37, type: 3}
@@ -768,6 +804,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 383363950608046416}
     - target: {fileID: 778216845048532978, guid: 42953ddb926702b4f9c3e6f4be21fede, type: 3}
+      propertyPath: DumpZone
+      value: 
+      objectReference: {fileID: 1919552869020368305}
+    - target: {fileID: 778216845048532978, guid: 42953ddb926702b4f9c3e6f4be21fede, type: 3}
       propertyPath: DeckObject
       value: 
       objectReference: {fileID: 7412419745830546127}
@@ -845,6 +885,10 @@ PrefabInstance:
       propertyPath: Table
       value: 
       objectReference: {fileID: 383363950608046416}
+    - target: {fileID: 778216845048532978, guid: 42953ddb926702b4f9c3e6f4be21fede, type: 3}
+      propertyPath: DumpZone
+      value: 
+      objectReference: {fileID: 1919552869020368305}
     - target: {fileID: 778216845048532978, guid: 42953ddb926702b4f9c3e6f4be21fede, type: 3}
       propertyPath: DeckObject
       value: 
@@ -924,6 +968,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 383363950608046416}
     - target: {fileID: 778216845048532978, guid: 42953ddb926702b4f9c3e6f4be21fede, type: 3}
+      propertyPath: DumpZone
+      value: 
+      objectReference: {fileID: 1919552869020368305}
+    - target: {fileID: 778216845048532978, guid: 42953ddb926702b4f9c3e6f4be21fede, type: 3}
       propertyPath: DeckObject
       value: 
       objectReference: {fileID: 7412419745830546127}
@@ -1001,6 +1049,10 @@ PrefabInstance:
       propertyPath: Table
       value: 
       objectReference: {fileID: 383363950608046416}
+    - target: {fileID: 778216845048532978, guid: 42953ddb926702b4f9c3e6f4be21fede, type: 3}
+      propertyPath: DumpZone
+      value: 
+      objectReference: {fileID: 1919552869020368305}
     - target: {fileID: 778216845048532978, guid: 42953ddb926702b4f9c3e6f4be21fede, type: 3}
       propertyPath: DeckObject
       value: 
