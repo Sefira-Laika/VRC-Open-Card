@@ -1,6 +1,6 @@
 A free open source software card game for VRC.
 
-Intended for use in worlds that are not focused only on gaming. Similar to Pool tables in many worlds.
+Intended for use in worlds that are not focused only on gaming. Similar to pool tables in many worlds.
 
 Tested on Linux using ALCOM to manage Unity projects and ADB to receive debug data from mobile test players.
 
